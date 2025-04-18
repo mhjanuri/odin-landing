@@ -1,6 +1,6 @@
-* {
+/* * {
     border: red solid 1px;
-}
+} */
 
 body {
     font-family: roboto, sans-serif;
@@ -31,6 +31,134 @@ body {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
+}
+
+.hero {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 100px;
+
+}
+
+.hero-text {
+    max-width: 450px;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 20px;
+}
+
+.hero-text button {
+    background-color: #3B82F6;
+    color: #F9FAF8;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+
+.hero-img {
+    background-color: #6b7280;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+}
+
+/* ############# */
+
+.info-section {
+    text-align: center;
+    padding: 80px 100px;
+}
+
+.info-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    width: 150px;
+}
+
+.card-img {
+    border: 3px solid #3882f6;
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+}
+
+.card p {
+    font-size: 14px;
+}
+
+/* ############################ */
+
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding: 60px 200px;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.quote-author {
+    text-align: right;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/* ########################## */
+
+.call-action {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    margin: 80px 100px;
+    padding: 20px 100px;
+    border-radius: 8px;
+    
+}
+
+.call-action-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.call-action-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.call-action-button {
+    background-color: transparent;
+    color: #F9FAF8;
+    border-radius: 8px;
+    border: 2px solid #F9FAF8;
+    padding: 10px 40px;
+    font-weight: bold;
+    cursor: pointer;
 }
 
 .footer {
